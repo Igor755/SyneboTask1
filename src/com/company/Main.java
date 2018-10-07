@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Please enter number of squares (squares must be >= 1 and <= 109 and integer)");
+        System.out.println("Please enter number of squares (squares must be >= 1 and <= 10 exponent 9, and integer)");
         Scanner scan = new Scanner(System.in);
 
 
@@ -18,7 +18,7 @@ public class Main {
             n = scan.nextInt();
 
 
-            if (n >= 1 && n <= 109) {
+            if (n >= 1 && n <= Math.pow(10,9)) {
 
 
                 length = Math.floor(Math.sqrt(n));
