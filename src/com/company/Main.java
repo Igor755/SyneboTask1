@@ -33,7 +33,7 @@ public class Main {
 
             }
         } catch (InputMismatchException e) {
-            System.out.println("You did not enter an integer");
+            System.out.println("n value not entered correctly");
         }
 
     }
