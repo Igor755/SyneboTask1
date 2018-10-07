@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Please enter number of squares (squares must be >= 1 and <= 10 exponent 9, and integer)");
+        System.out.println("Please enter number of squares (squares must be >= 1 and <= 10 in power 9, and integer)");
         Scanner scan = new Scanner(System.in);
 
 
